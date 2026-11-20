@@ -1,0 +1,15 @@
+export const adminToolPages = [
+  "Farmer Requests",
+  "Reports & Analytics",
+  "Weather Management",
+  "Soil & Irrigation Management",
+  "Fertilizer Management",
+  "Pest & Disease Management",
+  "Market Management",
+  "Product Management",
+  "Season Management",
+  "Farm Location Tracking",
+  "Notifications",
+  "Feedback & Complaints",
+  "Farming Education",
+];

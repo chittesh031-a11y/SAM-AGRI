@@ -1,0 +1,1054 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 2842 >>
+stream
+0.970 0.980 0.950 rg
+0 0 595 842 re f
+0.090 0.300 0.180 rg
+0 392 595 450 re f
+0.160 0.470 0.260 rg
+0 392 12 450 re f
+0.130 0.400 0.230 rg
+445 642 110 110 re f
+0.170 0.460 0.270 rg
+477 673 110 110 re f
+0.240 0.560 0.310 rg
+505 705 90 90 re f
+0.770 0.870 0.570 rg
+BT /F2 9 Tf 1 0 0 1 48 771 Tm (PROJECT SYNOPSIS  /  SYSTEM DESIGN) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 28 Tf 1 0 0 1 48 697 Tm (SMART AGRICULTURE) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 28 Tf 1 0 0 1 48 657 Tm (MANAGEMENT SYSTEM) Tj ET
+0.870 0.930 0.860 rg
+BT /F1 12 Tf 1 0 0 1 50 615 Tm (A digital workspace for farm records, crop care, resource) Tj ET
+0.870 0.930 0.860 rg
+BT /F1 12 Tf 1 0 0 1 50 596 Tm (planning, market references, and administration.) Tj ET
+0.460 0.650 0.480 RG
+0.8 w
+50 558 m 545 558 l S
+0.770 0.870 0.570 rg
+BT /F2 8 Tf 1 0 0 1 50 527 Tm (PROJECT TOPIC) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 13 Tf 1 0 0 1 50 505 Tm (Smart Agriculture Management System with Crop, Soil, Irrigation,) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 13 Tf 1 0 0 1 50 486 Tm (and Farm Administration Modules) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 9 Tf 1 0 0 1 48 339 Tm (PROJECT OVERVIEW) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 17 Tf 1 0 0 1 48 309 Tm (Farm operations, organized in one place.) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 10 Tf 1 0 0 1 48 285 Tm (This document describes the working React frontend and a proposed backend and database design.) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 10 Tf 1 0 0 1 48 269 Tm (Backend and persistent storage are not part of the current application build.) Tj ET
+1.000 1.000 1.000 rg
+48 151 156 79 re f
+0.860 0.900 0.850 RG
+48 151 156 79 re S
+0.160 0.470 0.260 rg
+48 226 156 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 62 205 Tm (Frontend) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 62 187 Tm (React 19, JSX, Vite, and) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 62 175 Tm (responsive CSS.) Tj ET
+1.000 1.000 1.000 rg
+219 151 156 79 re f
+0.860 0.900 0.850 RG
+219 151 156 79 re S
+0.880 0.690 0.300 rg
+219 226 156 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 233 205 Tm (Farmer tools) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 233 187 Tm (Crop, soil, irrigation,) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 233 175 Tm (weather, and farm planning.) Tj ET
+1.000 1.000 1.000 rg
+390 151 156 79 re f
+0.860 0.900 0.850 RG
+390 151 156 79 re S
+0.360 0.570 0.660 rg
+390 226 156 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 404 205 Tm (Admin tools) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 404 187 Tm (Farmer review, catalog,) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 404 175 Tm (reports, and settings.) Tj ET
+0.400 0.470 0.420 rg
+BT /F2 9 Tf 1 0 0 1 48 86 Tm (Prepared: 20 November 2026) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.5 Tf 1 0 0 1 48 67 Tm (Current implementation: frontend prototype with session-only sample records.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 5945 >>
+stream
+0.970 0.980 0.950 rg
+0 0 595 842 re f
+0.090 0.300 0.180 rg
+0 831 595 11 re f
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 42 800 Tm (01  /  PROJECT OVERVIEW) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 23 Tf 1 0 0 1 42 770 Tm (Abstract and objectives) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9.5 Tf 1 0 0 1 42 751 Tm (Purpose, proposed benefits, and the boundary between the current demo and future deployment.) Tj ET
+0.860 0.900 0.850 RG
+0.8 w
+42 731 m 553 731 l S
+0.160 0.470 0.260 rg
+BT /F2 9 Tf 1 0 0 1 42 694 Tm (ABSTRACT) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 672 Tm (The Smart Agriculture Management System is a web-based project concept that brings common farm) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 656 Tm (activities into one interface. Farmers can maintain crop records, review soil and weather) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 640 Tm (information, plan irrigation and fertilizer applications, record crop-health observations,) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 624 Tm (organize field tasks, and browse seed and farm-supply listings. Administrative screens support) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 608 Tm (farmer-profile review, crop and product oversight, regional weather review, reports, seasonal) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 592 Tm (planning, and farmer communications. The current implementation is a React frontend populated) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 576 Tm (with illustrative records. It retrieves a regional forecast from the Open-Meteo API and can) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 560 Tm (request device location only after an explicit user action. Authentication is demo-only, and) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 544 Tm (user-entered records are held in page memory rather than a database. This synopsis therefore) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 528 Tm (separates implemented frontend features from a proposed backend design using a REST API and) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 512 Tm (relational database. A production deployment would require secure authentication, persistent) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 10.3 Tf 1 0 0 1 42 496 Tm (storage, validation, authorization, privacy controls, and locally verified agricultural guidance.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 9 Tf 1 0 0 1 42 464 Tm (PROJECT OBJECTIVES) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 12 Tf 1 0 0 1 42 439 Tm (-) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 56 439 Tm (Centralize farm records) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.8 Tf 1 0 0 1 56 424 Tm (Organize farmer profiles, farm locations, crop status, and field tasks.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 12 Tf 1 0 0 1 42 403 Tm (-) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 56 403 Tm (Support timely decisions) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.8 Tf 1 0 0 1 56 388 Tm (Present soil, regional weather, and irrigation-planning information in a clear workflow.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 12 Tf 1 0 0 1 42 367 Tm (-) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 56 367 Tm (Improve crop-health follow-up) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.8 Tf 1 0 0 1 56 352 Tm (Record symptoms and photos for review without presenting the demo scanner as an automated diagnosis.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 12 Tf 1 0 0 1 42 331 Tm (-) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 56 331 Tm (Provide administration tools) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.8 Tf 1 0 0 1 56 316 Tm (Review sample requests, manage catalogs and seasons, and summarize activity.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 12 Tf 1 0 0 1 42 295 Tm (-) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 56 295 Tm (Plan a responsible backend) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.8 Tf 1 0 0 1 56 280 Tm (Define a relational data model for future secure, persistent operation.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 9 Tf 1 0 0 1 42 250 Tm (CURRENT SCOPE AND LIMITATIONS) Tj ET
+1.000 1.000 1.000 rg
+42 143 162 85 re f
+0.860 0.900 0.850 RG
+42 143 162 85 re S
+0.160 0.470 0.260 rg
+42 224 162 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 56 203 Tm (Implemented) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 185 Tm (React UI, sample farmer and) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 173 Tm (crop records, client-side) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 161 Tm (forms, regional forecast, and) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 149 Tm (opt-in browser location.) Tj ET
+1.000 1.000 1.000 rg
+216 143 162 85 re f
+0.860 0.900 0.850 RG
+216 143 162 85 re S
+0.880 0.690 0.300 rg
+216 224 162 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 230 203 Tm (Not connected) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 230 185 Tm (No API server, database,) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 230 173 Tm (production login, live) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 230 161 Tm (marketplace, payment) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 230 149 Tm (processing, or device sensor) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 230 137 Tm (feed.) Tj ET
+1.000 1.000 1.000 rg
+390 143 162 85 re f
+0.860 0.900 0.850 RG
+390 143 162 85 re S
+0.360 0.570 0.660 rg
+390 224 162 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 404 203 Tm (Data caution) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 404 185 Tm (Prices and profiles are) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 404 173 Tm (illustrative. Advice and) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 404 161 Tm (thresholds are examples, not) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 404 149 Tm (agronomic recommendations.) Tj ET
+0.860 0.900 0.850 RG
+0.7 w
+42 34 m 553 34 l S
+0.400 0.470 0.420 rg
+BT /F2 7.3 Tf 1 0 0 1 42 20 Tm (SMART AGRICULTURE MANAGEMENT SYSTEM  |  PROJECT SYNOPSIS) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.3 Tf 1 0 0 1 527 20 Tm (2 / 6) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4467 >>
+stream
+0.970 0.980 0.950 rg
+0 0 595 842 re f
+0.090 0.300 0.180 rg
+0 831 595 11 re f
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 42 800 Tm (02  /  SOFTWARE AND ARCHITECTURE) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 23 Tf 1 0 0 1 42 770 Tm (Frontend and backend) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9.5 Tf 1 0 0 1 42 751 Tm (Existing technologies are listed separately from the recommended server-side design.) Tj ET
+0.860 0.900 0.850 RG
+0.8 w
+42 731 m 553 731 l S
+1.000 1.000 1.000 rg
+42 452 244 215 re f
+0.860 0.900 0.850 RG
+42 452 244 215 re S
+0.160 0.470 0.260 rg
+42 663 244 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 56 642 Tm (CURRENT FRONTEND) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 624 Tm (Implemented in the repository. React 19 functional) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 612 Tm (components with JSX and hooks. Vite 8 development) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 600 Tm (and production build. CSS for responsive layouts,) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 588 Tm (dashboards, forms, and tables. Browser APIs for) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 576 Tm (opt-in geolocation and local session state.) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 56 564 Tm (Open-Meteo forecast endpoint for regional weather.) Tj ET
+1.000 1.000 1.000 rg
+309 452 244 215 re f
+0.860 0.900 0.850 RG
+309 452 244 215 re S
+0.880 0.690 0.300 rg
+309 663 244 4 re f
+0.120 0.240 0.170 rg
+BT /F2 10.5 Tf 1 0 0 1 323 642 Tm (PROPOSED BACKEND - NOT IMPLEMENTED) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 624 Tm (Node.js with Express REST API. PostgreSQL) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 612 Tm (relational database for users, farms, crop) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 600 Tm (records, observations, plans, products, and) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 588 Tm (notifications. Password hashing, role-based) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 576 Tm (authorization, request validation, audit logging,) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 564 Tm (and backups. HTTPS deployment with) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.4 Tf 1 0 0 1 323 552 Tm (environment-based secrets.) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 9 Tf 1 0 0 1 42 418 Tm (PROPOSED REQUEST FLOW) Tj ET
+1.000 1.000 1.000 rg
+42 354 145 53 re f
+0.860 0.900 0.850 RG
+42 354 145 53 re S
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 54 386 Tm (React client) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.4 Tf 1 0 0 1 54 368 Tm (Farmer or admin UI) Tj ET
+1.000 1.000 1.000 rg
+224 354 145 53 re f
+0.860 0.900 0.850 RG
+224 354 145 53 re S
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 236 386 Tm (REST API) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.4 Tf 1 0 0 1 236 368 Tm (Authentication + validation) Tj ET
+1.000 1.000 1.000 rg
+406 354 145 53 re f
+0.860 0.900 0.850 RG
+406 354 145 53 re S
+0.120 0.240 0.170 rg
+BT /F2 10 Tf 1 0 0 1 418 386 Tm (PostgreSQL) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.4 Tf 1 0 0 1 418 368 Tm (Persistent relational data) Tj ET
+0.160 0.470 0.260 RG
+1.6 w
+187 380 m 217 380 l S
+0.160 0.470 0.260 RG
+1.6 w
+369 380 m 399 380 l S
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 42 326 Tm (EXTERNAL SERVICE) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9 Tf 1 0 0 1 42 307 Tm (Weather currently loads from Open-Meteo when network access is available. The project does not currently) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9 Tf 1 0 0 1 42 293 Tm (integrate physical soil sensors, GPS tracking devices, or a backend service.) Tj ET
+0.930 0.960 0.900 rg
+42 138 511 104 re f
+0.860 0.900 0.850 RG
+42 138 511 104 re S
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 58 217 Tm (DEPLOYMENT STATUS) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 9.2 Tf 1 0 0 1 58 195 Tm (The repository contains a frontend app under frontend/. Login accepts any non-empty username and) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 9.2 Tf 1 0 0 1 58 181 Tm (password in demo mode. Most seeded records, settings, plans, and catalog edits remain in browser) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 9.2 Tf 1 0 0 1 58 167 Tm (memory and reset when the page is reloaded. The backend and ER model below are proposed next steps,) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 9.2 Tf 1 0 0 1 58 153 Tm (not existing services.) Tj ET
+0.860 0.900 0.850 RG
+0.7 w
+42 34 m 553 34 l S
+0.400 0.470 0.420 rg
+BT /F2 7.3 Tf 1 0 0 1 42 20 Tm (SMART AGRICULTURE MANAGEMENT SYSTEM  |  PROJECT SYNOPSIS) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.3 Tf 1 0 0 1 527 20 Tm (3 / 6) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 5897 >>
+stream
+0.970 0.980 0.950 rg
+0 0 595 842 re f
+0.090 0.300 0.180 rg
+0 831 595 11 re f
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 42 800 Tm (03  /  MODULE DESCRIPTION) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 23 Tf 1 0 0 1 42 770 Tm (Farmer modules) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9.5 Tf 1 0 0 1 42 751 Tm (Farmer-facing pages currently present in the SmartFarm interface.) Tj ET
+0.860 0.900 0.850 RG
+0.8 w
+42 731 m 553 731 l S
+0.090 0.300 0.180 rg
+42 704 513 26 re f
+1.000 1.000 1.000 rg
+BT /F2 8.4 Tf 1 0 0 1 51 713 Tm (FARMER MODULE) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.4 Tf 1 0 0 1 196 713 Tm (DESCRIPTION) Tj ET
+0.920 0.960 0.910 rg
+42 664 513 40 re f
+0.860 0.900 0.850 RG
+42 664 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 690 Tm (Dashboard) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 690 Tm (Shows crop totals, growing crops, water and temperature sample cards, and farm) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 679.7 Tm (illustrations.) Tj ET
+1.000 1.000 1.000 rg
+42 624 513 40 re f
+0.860 0.900 0.850 RG
+42 624 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 650 Tm (My Crops) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 650 Tm (Add, edit, and remove crop records with area, planting date, and status.) Tj ET
+0.920 0.960 0.910 rg
+42 584 513 40 re f
+0.860 0.900 0.850 RG
+42 584 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 610 Tm (Soil Monitoring) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 610 Tm (Displays illustrative soil indicators and monitoring information; no physical sensor) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 599.7 Tm (is connected.) Tj ET
+1.000 1.000 1.000 rg
+42 544 513 40 re f
+0.860 0.900 0.850 RG
+42 544 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 570 Tm (Weather) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 570 Tm (Loads current regional conditions and a five-day Open-Meteo forecast, with refresh) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 559.7 Tm (and error states.) Tj ET
+0.920 0.960 0.910 rg
+42 504 513 40 re f
+0.860 0.900 0.850 RG
+42 504 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 530 Tm (Irrigation) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 530 Tm (Combines entered soil-moisture and rain-probability values into a transparent sample) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 519.7 Tm (reminder.) Tj ET
+1.000 1.000 1.000 rg
+42 464 513 40 re f
+0.860 0.900 0.850 RG
+42 464 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 490 Tm (Fertilizer Planner) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 490 Tm (Records crop, soil-test N-P-K status, product, user-entered rate, date, and plan) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 479.7 Tm (status.) Tj ET
+0.920 0.960 0.910 rg
+42 424 513 40 re f
+0.860 0.900 0.850 RG
+42 424 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 450 Tm (Pest & Disease Detection) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 450 Tm (Provides field-scouting prompts and points users to qualified local crop advice.) Tj ET
+1.000 1.000 1.000 rg
+42 384 513 40 re f
+0.860 0.900 0.850 RG
+42 384 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 410 Tm (Crop Disease Scanner) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 410 Tm (Accepts a crop photo and symptom notes for a session-only observation; it does not) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 399.7 Tm (diagnose.) Tj ET
+0.920 0.960 0.910 rg
+42 344 513 40 re f
+0.860 0.900 0.850 RG
+42 344 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 370 Tm (Farm Calendar) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 370 Tm (Creates, dates, categorizes, and completes field reminders for the current page) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 359.7 Tm (session.) Tj ET
+1.000 1.000 1.000 rg
+42 304 513 40 re f
+0.860 0.900 0.850 RG
+42 304 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 330 Tm (Farm Equipment) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 330 Tm (Lists sample equipment, maintenance notes, status filters, and ready/service) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 319.7 Tm (actions.) Tj ET
+0.920 0.960 0.910 rg
+42 264 513 40 re f
+0.860 0.900 0.850 RG
+42 264 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 290 Tm (Crop Growth Analytics) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 290 Tm (Summarizes recorded crop status and area; it does not estimate yield or sensor-based) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 279.7 Tm (growth.) Tj ET
+1.000 1.000 1.000 rg
+42 224 513 40 re f
+0.860 0.900 0.850 RG
+42 224 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 250 Tm (Market Prices and Shop) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 250 Tm (Shows sample price references and 20 sample product listings with search, filters,) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 239.7 Tm (and a local basket.) Tj ET
+0.920 0.960 0.910 rg
+42 184 513 40 re f
+0.860 0.900 0.850 RG
+42 184 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 210 Tm (Community, Profile, Help) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 210 Tm (Offers local demo posts, editable profile fields, FAQ content, and non-transmitted) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 199.7 Tm (support requests.) Tj ET
+1.000 1.000 1.000 rg
+42 144 513 40 re f
+0.860 0.900 0.850 RG
+42 144 513 40 re S
+0.120 0.240 0.170 rg
+BT /F2 8.3 Tf 1 0 0 1 51 170 Tm (Farming Tips and Notifications) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 8.3 Tf 1 0 0 1 196 170 Tm (Displays general learning reminders and session-only sample notifications.) Tj ET
+0.860 0.900 0.850 RG
+0.7 w
+42 34 m 553 34 l S
+0.400 0.470 0.420 rg
+BT /F2 7.3 Tf 1 0 0 1 42 20 Tm (SMART AGRICULTURE MANAGEMENT SYSTEM  |  PROJECT SYNOPSIS) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.3 Tf 1 0 0 1 527 20 Tm (4 / 6) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 6006 >>
+stream
+0.970 0.980 0.950 rg
+0 0 595 842 re f
+0.090 0.300 0.180 rg
+0 831 595 11 re f
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 42 800 Tm (04  /  MODULE DESCRIPTION) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 23 Tf 1 0 0 1 42 770 Tm (Admin modules) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9.5 Tf 1 0 0 1 42 751 Tm (Administration, planning, and management pages currently present in the interface.) Tj ET
+0.860 0.900 0.850 RG
+0.8 w
+42 731 m 553 731 l S
+0.090 0.300 0.180 rg
+42 704 513 26 re f
+1.000 1.000 1.000 rg
+BT /F2 8.4 Tf 1 0 0 1 51 713 Tm (ADMIN MODULE) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.4 Tf 1 0 0 1 217 713 Tm (DESCRIPTION) Tj ET
+0.920 0.960 0.910 rg
+42 678 513 26 re f
+0.860 0.900 0.850 RG
+42 678 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 690 Tm (Dashboard) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 690 Tm (Summarizes sample farmer profiles and crop records.) Tj ET
+1.000 1.000 1.000 rg
+42 652 513 26 re f
+0.860 0.900 0.850 RG
+42 652 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 664 Tm (Farmers) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 664 Tm (Searches and filters the illustrative farmer directory by profile status.) Tj ET
+0.920 0.960 0.910 rg
+42 626 513 26 re f
+0.860 0.900 0.850 RG
+42 626 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 638 Tm (Crop Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 638 Tm (Maintains crop records through the shared crop form and table.) Tj ET
+1.000 1.000 1.000 rg
+42 600 513 26 re f
+0.860 0.900 0.850 RG
+42 600 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 612 Tm (Reports) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 612 Tm (Shows crop-status totals and sample farmer activity summaries.) Tj ET
+0.920 0.960 0.910 rg
+42 574 513 26 re f
+0.860 0.900 0.850 RG
+42 574 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 586 Tm (Settings) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 586 Tm (Edits demo farm preferences, alert switches, and display language.) Tj ET
+1.000 1.000 1.000 rg
+42 548 513 26 re f
+0.860 0.900 0.850 RG
+42 548 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 560 Tm (Farmer Requests) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 560 Tm (Reviews pending sample profiles with approve and decline actions.) Tj ET
+0.920 0.960 0.910 rg
+42 522 513 26 re f
+0.860 0.900 0.850 RG
+42 522 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 534 Tm (Reports & Analytics) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 534 Tm (Summarizes farmers, pending requests, crop counts, and crop status.) Tj ET
+1.000 1.000 1.000 rg
+42 496 513 26 re f
+0.860 0.900 0.850 RG
+42 496 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 508 Tm (Weather Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 508 Tm (Shows the shared regional forecast and refresh state.) Tj ET
+0.920 0.960 0.910 rg
+42 470 513 26 re f
+0.860 0.900 0.850 RG
+42 470 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 482 Tm (Soil & Irrigation Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 482 Tm (Sets a sample moisture reminder trigger and lists crop records.) Tj ET
+1.000 1.000 1.000 rg
+42 444 513 26 re f
+0.860 0.900 0.850 RG
+42 444 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 456 Tm (Fertilizer Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 456 Tm (Maintains a simple fertilizer product reference catalog; no doses are calculated.) Tj ET
+0.920 0.960 0.910 rg
+42 418 513 26 re f
+0.860 0.900 0.850 RG
+42 418 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 430 Tm (Pest & Disease Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 430 Tm (Tracks illustrative crop-health observations and follow-up status.) Tj ET
+1.000 1.000 1.000 rg
+42 392 513 26 re f
+0.860 0.900 0.850 RG
+42 392 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 404 Tm (Market Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 404 Tm (Edits illustrative market-price references, not live market quotes.) Tj ET
+0.920 0.960 0.910 rg
+42 366 513 26 re f
+0.860 0.900 0.850 RG
+42 366 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 378 Tm (Product Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 378 Tm (Maintains sample product listings and stock counts for the admin view.) Tj ET
+1.000 1.000 1.000 rg
+42 340 513 26 re f
+0.860 0.900 0.850 RG
+42 340 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 352 Tm (Season Management) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 352 Tm (Adds planning periods and marks one sample season active.) Tj ET
+0.920 0.960 0.910 rg
+42 314 513 26 re f
+0.860 0.900 0.850 RG
+42 314 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 326 Tm (Farm Location Tracking) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 326 Tm (Requests one-time browser location with permission or accepts coordinates; saves in) Tj ET
+1.000 1.000 1.000 rg
+42 288 513 26 re f
+0.860 0.900 0.850 RG
+42 288 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 300 Tm (Notifications) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 300 Tm (Creates demo announcements that are not delivered to farmer accounts.) Tj ET
+0.920 0.960 0.910 rg
+42 262 513 26 re f
+0.860 0.900 0.850 RG
+42 262 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 274 Tm (Feedback & Complaints) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 274 Tm (Reviews sample messages and changes their session-only status.) Tj ET
+1.000 1.000 1.000 rg
+42 236 513 26 re f
+0.860 0.900 0.850 RG
+42 236 513 26 re S
+0.120 0.240 0.170 rg
+BT /F2 7.6 Tf 1 0 0 1 51 248 Tm (Farming Education) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.6 Tf 1 0 0 1 217 248 Tm (Shows general learning topics and local reviewed markers.) Tj ET
+0.860 0.900 0.850 RG
+0.7 w
+42 34 m 553 34 l S
+0.400 0.470 0.420 rg
+BT /F2 7.3 Tf 1 0 0 1 42 20 Tm (SMART AGRICULTURE MANAGEMENT SYSTEM  |  PROJECT SYNOPSIS) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.3 Tf 1 0 0 1 527 20 Tm (5 / 6) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 8687 >>
+stream
+0.970 0.980 0.950 rg
+0 0 1191 842 re f
+0.090 0.300 0.180 rg
+0 831 1191 11 re f
+0.160 0.470 0.260 rg
+BT /F2 8 Tf 1 0 0 1 42 806 Tm (05  /  PROPOSED DATA MODEL) Tj ET
+0.120 0.240 0.170 rg
+BT /F2 23 Tf 1 0 0 1 42 778 Tm (Entity-relationship diagram) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 9 Tf 1 0 0 1 42 759 Tm (Logical schema for a future backend. This database is not implemented in the current frontend-only project.) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+475 718 m
+285 718 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 347 725 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+595 672 m
+595 624 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.2 Tf 1 0 0 1 602 646 Tm (1:0..1) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+475 578 m
+285 578 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 343 585 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+165 532 m
+165 484 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 173 506 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+595 532 m
+595 484 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 602 506 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+595 392 m
+595 344 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 602 367 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+475 438 m
+430 438 l
+430 298 l
+285 298 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 348 373 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+475 438 m
+745 438 l
+745 158 l
+715 158 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 753 322 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+715 298 m
+850 298 l
+850 578 l
+905 578 l
+S
+0.160 0.470 0.260 RG
+1.3 w
+850 438 m
+905 438 l
+S
+0.160 0.470 0.260 RG
+1.3 w
+715 298 m
+905 298 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 788 585 Tm (1:M) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 865 445 Tm (1:M) Tj ET
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 788 305 Tm (1:M) Tj ET
+0.160 0.470 0.260 RG
+1.3 w
+45 438 m
+15 438 l
+15 780 l
+1025 780 l
+1025 764 l
+S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 590 785 Tm (PRODUCT 1:M ORDER_ITEM) Tj ET
+1.000 1.000 1.000 rg
+45 672 240 92 re f
+0.860 0.900 0.850 RG
+45 672 240 92 re S
+0.090 0.300 0.180 rg
+45 740 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 55 748 Tm (NOTIFICATION) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 725 Tm (PK notification_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 712 Tm (FK user_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 699 Tm (title, message, read_at) Tj ET
+1.000 1.000 1.000 rg
+475 672 240 92 re f
+0.860 0.900 0.850 RG
+475 672 240 92 re S
+0.090 0.300 0.180 rg
+475 740 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 485 748 Tm (USER_ACCOUNT) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 725 Tm (PK user_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 712 Tm (username, password_hash) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 699 Tm (role, created_at) Tj ET
+1.000 1.000 1.000 rg
+905 672 240 92 re f
+0.860 0.900 0.850 RG
+905 672 240 92 re S
+0.090 0.300 0.180 rg
+905 740 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 915 748 Tm (PRODUCT) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 725 Tm (PK product_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 712 Tm (name, category, price) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 699 Tm (stock_quantity, unit) Tj ET
+1.000 1.000 1.000 rg
+45 532 240 92 re f
+0.860 0.900 0.850 RG
+45 532 240 92 re S
+0.090 0.300 0.180 rg
+45 600 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 55 608 Tm (PURCHASE_ORDER) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 585 Tm (PK order_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 572 Tm (FK farmer_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 559 Tm (status, created_at) Tj ET
+1.000 1.000 1.000 rg
+475 532 240 92 re f
+0.860 0.900 0.850 RG
+475 532 240 92 re S
+0.090 0.300 0.180 rg
+475 600 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 485 608 Tm (FARMER_PROFILE) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 585 Tm (PK farmer_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 572 Tm (FK user_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 559 Tm (full_name, phone, district) Tj ET
+1.000 1.000 1.000 rg
+905 532 240 92 re f
+0.860 0.900 0.850 RG
+905 532 240 92 re S
+0.090 0.300 0.180 rg
+905 600 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 915 608 Tm (SOIL_READING) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 585 Tm (PK reading_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 572 Tm (FK crop_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 559 Tm (moisture, pH, N-P-K, time) Tj ET
+1.000 1.000 1.000 rg
+45 392 240 92 re f
+0.860 0.900 0.850 RG
+45 392 240 92 re S
+0.090 0.300 0.180 rg
+45 460 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 55 468 Tm (ORDER_ITEM) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 445 Tm (PK order_item_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 432 Tm (FK order_id, FK product_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 419 Tm (quantity, unit_price) Tj ET
+1.000 1.000 1.000 rg
+475 392 240 92 re f
+0.860 0.900 0.850 RG
+475 392 240 92 re S
+0.090 0.300 0.180 rg
+475 460 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 485 468 Tm (FARM) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 445 Tm (PK farm_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 432 Tm (FK farmer_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 419 Tm (name, district, latitude, longitude) Tj ET
+1.000 1.000 1.000 rg
+905 392 240 92 re f
+0.860 0.900 0.850 RG
+905 392 240 92 re S
+0.090 0.300 0.180 rg
+905 460 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 915 468 Tm (FIELD_OBSERVATION) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 445 Tm (PK observation_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 432 Tm (FK crop_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 419 Tm (symptoms, photo_path, status) Tj ET
+1.000 1.000 1.000 rg
+45 252 240 92 re f
+0.860 0.900 0.850 RG
+45 252 240 92 re S
+0.090 0.300 0.180 rg
+45 320 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 55 328 Tm (FARM_EVENT) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 305 Tm (PK event_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 292 Tm (FK farm_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 55 279 Tm (title, category, due_date, status) Tj ET
+1.000 1.000 1.000 rg
+475 252 240 92 re f
+0.860 0.900 0.850 RG
+475 252 240 92 re S
+0.090 0.300 0.180 rg
+475 320 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 485 328 Tm (CROP_RECORD) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 305 Tm (PK crop_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 292 Tm (FK farm_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 279 Tm (crop_name, area, planted_on, status) Tj ET
+1.000 1.000 1.000 rg
+905 252 240 92 re f
+0.860 0.900 0.850 RG
+905 252 240 92 re S
+0.090 0.300 0.180 rg
+905 320 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 915 328 Tm (FERTILIZER_PLAN) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 305 Tm (PK plan_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 292 Tm (FK crop_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 279 Tm (product, rate, date, status) Tj ET
+1.000 1.000 1.000 rg
+475 112 240 92 re f
+0.860 0.900 0.850 RG
+475 112 240 92 re S
+0.090 0.300 0.180 rg
+475 180 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 485 188 Tm (SEASON) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 165 Tm (PK season_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 152 Tm (FK farm_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 485 139 Tm (name, start_date, end_date, status) Tj ET
+1.000 1.000 1.000 rg
+905 112 240 92 re f
+0.860 0.900 0.850 RG
+905 112 240 92 re S
+0.090 0.300 0.180 rg
+905 180 240 24 re f
+1.000 1.000 1.000 rg
+BT /F2 9.2 Tf 1 0 0 1 915 188 Tm (MARKET_PRICE) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 165 Tm (PK market_price_id) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 152 Tm (crop_name, market_name) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 915 139 Tm (price, unit, observed_at) Tj ET
+0.930 0.960 0.900 rg
+45 35 1100 48 re f
+0.860 0.900 0.850 RG
+45 35 1100 48 re S
+0.160 0.470 0.260 rg
+BT /F2 7.5 Tf 1 0 0 1 60 64 Tm (RELATIONSHIP KEY) Tj ET
+0.120 0.240 0.170 rg
+BT /F1 8 Tf 1 0 0 1 60 48 Tm (PK = primary key   |   FK = foreign key   |   1:M = one-to-many   |   1:0..1 = optional one-to-one) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.2 Tf 1 0 0 1 850 48 Tm (Proposed schema - requires backend implementation.) Tj ET
+0.860 0.900 0.850 RG
+0.7 w
+45 24 m 1145 24 l S
+0.400 0.470 0.420 rg
+BT /F2 7.1 Tf 1 0 0 1 45 11 Tm (SMART AGRICULTURE MANAGEMENT SYSTEM  |  PROJECT SYNOPSIS) Tj ET
+0.400 0.470 0.420 rg
+BT /F1 7.1 Tf 1 0 0 1 1100 11 Tm (6 / 6) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 1191 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000149 00000 n 
+0000000246 00000 n 
+0000000348 00000 n 
+0000003242 00000 n 
+0000003378 00000 n 
+0000009375 00000 n 
+0000009511 00000 n 
+0000014030 00000 n 
+0000014167 00000 n 
+0000020117 00000 n 
+0000020255 00000 n 
+0000026314 00000 n 
+0000026452 00000 n 
+0000035192 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+35331
+%%EOF

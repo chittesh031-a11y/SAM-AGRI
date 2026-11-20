@@ -1,0 +1,376 @@
+.admin-tool-card-grid,
+.admin-tool-location-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.admin-tool-card {
+  padding: 20px;
+}
+
+.admin-tool-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.admin-tool-secondary-button {
+  min-height: 40px;
+  padding: 9px 13px;
+  border: 1px solid #e4eae3;
+  border-radius: 8px;
+  background: #fff;
+  color: #647168;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.admin-tool-secondary-button:hover {
+  background: #f5f8f3;
+}
+
+.admin-tool-weather-current {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid #dfeadd;
+  border-radius: 14px;
+  background: linear-gradient(120deg, #edf7ee, #fff);
+}
+
+.admin-tool-weather-current > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.admin-tool-weather-current .weather-current-icon {
+  font-size: 34px;
+}
+
+.admin-tool-weather-current > div > div {
+  display: grid;
+  gap: 5px;
+}
+
+.admin-tool-weather-current > div span:not(.weather-current-icon) {
+  color: #758078;
+  font-size: 12px;
+}
+
+.admin-tool-weather-current strong {
+  color: #315a3b;
+  font-size: 18px;
+}
+
+.admin-tool-forecast {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.admin-tool-forecast article {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 13px 9px;
+  border: 1px solid #edf0ec;
+  border-radius: 10px;
+  background: #fbfcfa;
+  text-align: center;
+}
+
+.admin-tool-forecast article strong {
+  color: #405347;
+  font-size: 12px;
+}
+
+.admin-tool-forecast article > span {
+  font-size: 20px;
+}
+
+.admin-tool-forecast article small {
+  color: #758078;
+  font-size: 10px;
+}
+
+.admin-tool-forecast article b {
+  color: #315a3b;
+  font-size: 11px;
+}
+
+.admin-threshold-form {
+  display: grid;
+  gap: 14px;
+}
+
+.admin-threshold-form .farmer-tool-panel-heading {
+  margin-bottom: 0;
+}
+
+.admin-threshold-form .farmer-tool-panel-heading strong {
+  color: #26783c;
+  font-size: 22px;
+}
+
+.admin-threshold-form > label {
+  display: block;
+}
+
+.admin-threshold-form input[type="range"] {
+  width: 100%;
+  min-height: 18px;
+  accent-color: #26783c;
+}
+
+.admin-tool-range-labels {
+  display: flex;
+  justify-content: space-between;
+  color: #89938b;
+  font-size: 10px;
+}
+
+.admin-threshold-form .farmer-tool-button {
+  justify-self: start;
+}
+
+.admin-inline-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) auto;
+  align-items: end;
+  gap: 12px;
+}
+
+.admin-inline-form .farmer-tool-button {
+  white-space: nowrap;
+}
+
+.season-form {
+  grid-template-columns: minmax(180px, 1.4fr) repeat(2, minmax(150px, 1fr)) auto;
+}
+
+.admin-tool-location-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.admin-tool-location-grid .farmer-tool-card {
+  padding: 18px;
+}
+
+.admin-tool-location-grid .farmer-tool-icon {
+  margin-bottom: 10px;
+}
+
+.admin-tool-location-grid .farmer-tool-eyebrow {
+  margin-bottom: 5px;
+}
+
+.admin-tool-location-grid .farmer-tool-card > p:last-child {
+  margin-bottom: 0;
+}
+
+.farm-location-form {
+  display: grid;
+  gap: 18px;
+}
+
+.farm-location-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.farm-location-manual {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) auto;
+  align-items: end;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid #edf0ec;
+}
+
+.farm-location-manual .admin-tool-secondary-button {
+  white-space: nowrap;
+}
+
+.farm-location-error {
+  margin: 0;
+  color: #a44235;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.farm-location-preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #e4eae3;
+  border-radius: 10px;
+  background:
+    linear-gradient(30deg, transparent 48%, #e8eee6 49%, #e8eee6 50%, transparent 51%),
+    linear-gradient(150deg, transparent 48%, #e8eee6 49%, #e8eee6 50%, transparent 51%),
+    #f7faf6;
+  background-size: 36px 36px;
+}
+
+.farm-location-preview > div {
+  display: grid;
+  gap: 5px;
+}
+
+.farm-location-preview strong {
+  color: #315a3b;
+  font-size: 16px;
+}
+
+.farm-location-preview > div > span:last-child {
+  color: #758078;
+  font-size: 11px;
+}
+
+.farm-location-list {
+  display: grid;
+}
+
+.farm-location-record {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid #edf0ec;
+}
+
+.farm-location-record:first-child {
+  border-top: 0;
+}
+
+.farm-location-record .farmer-tool-icon {
+  flex: 0 0 42px;
+  margin: 0;
+}
+
+.farm-location-record-details {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  gap: 4px;
+}
+
+.farm-location-record-details strong {
+  color: #315a3b;
+  font-size: 13px;
+}
+
+.farm-location-record-details span,
+.farm-location-record-details small {
+  color: #758078;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.farm-location-record-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.admin-announcement-form {
+  display: grid;
+  gap: 14px;
+}
+
+.admin-announcement-form .farmer-tool-button {
+  justify-self: start;
+}
+
+.admin-tool-announcements {
+  display: grid;
+  gap: 12px;
+}
+
+.admin-tool-announcements .farmer-tool-panel {
+  padding: 18px 20px;
+}
+
+.admin-tool-announcements .farmer-tool-panel > p {
+  margin: 0;
+}
+
+.farmer-tool-table td .farmer-tool-badge {
+  font-size: 10px;
+}
+
+.farmer-tool-table td .farmer-tool-link-button {
+  white-space: nowrap;
+}
+
+.farmer-tool-table input[type="number"] {
+  min-width: 120px;
+}
+
+@media (max-width: 900px) {
+  .admin-tool-card-grid,
+  .admin-tool-location-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .admin-inline-form,
+  .season-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .admin-tool-forecast {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .admin-tool-card-grid,
+  .admin-tool-location-grid,
+  .admin-inline-form,
+  .season-form {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-tool-weather-current {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .admin-tool-forecast {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .farm-location-manual {
+    grid-template-columns: 1fr;
+  }
+
+  .farm-location-preview {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .farm-location-record {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .farm-location-record-details {
+    flex-basis: calc(100% - 60px);
+  }
+
+  .farm-location-record-actions {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 52px;
+  }
+}

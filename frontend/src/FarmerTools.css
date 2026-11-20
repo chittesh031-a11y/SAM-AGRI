@@ -1,0 +1,884 @@
+.farmer-tool-page {
+  display: grid;
+  gap: 20px;
+}
+
+.farmer-tool-heading,
+.farmer-tool-panel-heading,
+.farmer-tool-form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.farmer-tool-heading {
+  align-items: flex-end;
+  margin-bottom: 2px;
+}
+
+.farmer-tool-heading h2 {
+  margin: 0;
+  color: #203d2c;
+  font-size: clamp(24px, 3vw, 31px);
+  letter-spacing: -0.045em;
+}
+
+.farmer-tool-eyebrow {
+  margin: 0 0 7px;
+  color: #63866b;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.farmer-tool-description {
+  margin: 8px 0 0;
+  color: #758078;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.farmer-tool-panel,
+.farmer-tool-card,
+.analytics-summary > article {
+  min-width: 0;
+  border: 1px solid #e8ede6;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 20px #203d2c0a;
+}
+
+.farmer-tool-panel {
+  padding: 22px;
+}
+
+.farmer-tool-panel h3,
+.farmer-tool-card h3 {
+  margin: 0;
+  color: #315a3b;
+  font-size: 15px;
+}
+
+.farmer-tool-panel > p,
+.farmer-tool-card > p {
+  color: #758078;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.farmer-tool-muted {
+  color: #859087;
+  font-size: 12px;
+}
+
+.farmer-tool-count,
+.farmer-tool-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #edf6ed;
+  color: #397348;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.farmer-tool-badge {
+  padding: 6px 9px;
+  font-size: 11px;
+}
+
+.farmer-tool-badge.badge-warn,
+.farmer-tool-notice--warning {
+  background: #fff6e6;
+  color: #875b1d;
+}
+
+.farmer-tool-badge.badge-good {
+  background: #edf6ed;
+  color: #397348;
+}
+
+.farmer-tool-notice {
+  padding: 13px 15px;
+  border: 1px solid #dfeadd;
+  border-radius: 10px;
+  background: #f2f8f0;
+  color: #45624a;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.farmer-tool-notice--warning {
+  border-color: #f0dfbd;
+}
+
+.farmer-tool-card-grid,
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.product-browse-tools {
+  display: grid;
+  gap: 12px;
+}
+
+.product-search {
+  max-width: 460px;
+}
+
+.product-search-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-search-clear {
+  min-height: 42px;
+  padding: 8px 12px;
+  border: 1px solid #e4eae3;
+  border-radius: 8px;
+  background: #fff;
+  color: #647168;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.product-search-clear:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.product-browse-tools > .farmer-tool-muted {
+  margin: 0;
+}
+
+.product-empty {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 28px 16px;
+  border: 1px dashed #dfe7df;
+  border-radius: 10px;
+  color: #758078;
+  font-size: 13px;
+  text-align: center;
+}
+
+.scouting-card,
+.equipment-card,
+.tip-card,
+.product-card {
+  padding: 20px;
+}
+
+.farmer-tool-icon {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 14px;
+  place-items: center;
+  border-radius: 12px;
+  background: #edf6ed;
+  font-size: 22px;
+}
+
+.scouting-card h3 {
+  margin-bottom: 8px;
+}
+
+.scouting-card p,
+.equipment-card > p,
+.tip-card > p,
+.product-card > p {
+  margin: 7px 0 0;
+  color: #758078;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.farmer-tool-panel-heading {
+  margin-bottom: 14px;
+}
+
+.farmer-tool-panel-heading h3 {
+  margin: 0;
+}
+
+.farmer-tool-button,
+.farmer-tool-link-button,
+.farmer-tool-filter {
+  min-height: 40px;
+  padding: 9px 13px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.farmer-tool-button {
+  background: #26783c;
+  color: #fff;
+}
+
+.farmer-tool-button:hover {
+  background: #1d6339;
+}
+
+.farmer-tool-button:disabled,
+.farmer-tool-link-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.farmer-tool-link-button {
+  min-height: 34px;
+  padding: 7px 9px;
+  background: transparent;
+  color: #26783c;
+}
+
+.farmer-tool-link-button:hover {
+  background: #edf6ed;
+}
+
+.farmer-tool-filter {
+  min-height: 36px;
+  padding: 7px 12px;
+  border-color: #e4eae3;
+  background: #fff;
+  color: #627067;
+}
+
+.farmer-tool-filter.is-selected {
+  border-color: #26783c;
+  background: #edf6ed;
+  color: #26783c;
+}
+
+.farmer-tool-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.farmer-tool-page label {
+  display: grid;
+  gap: 7px;
+  color: #405347;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.farmer-tool-page input:not([type="checkbox"]):not([type="file"]),
+.farmer-tool-page select,
+.farmer-tool-page textarea {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid #dfe7df;
+  border-radius: 8px;
+  background: #fff;
+  color: #304337;
+  font: inherit;
+  font-size: 13px;
+}
+
+.farmer-tool-page textarea {
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.farmer-tool-page input:focus,
+.farmer-tool-page select:focus,
+.farmer-tool-page textarea:focus {
+  border-color: #4c9560;
+  outline: 2px solid #4c95601a;
+}
+
+.scanner-form,
+.profile-form,
+.community-form,
+.support-form {
+  display: grid;
+  gap: 18px;
+}
+
+.scanner-fields,
+.profile-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.farmer-tool-page input[type="file"] {
+  width: 100%;
+  min-height: 42px;
+  padding: 8px;
+  border: 1px dashed #cbd9cc;
+  border-radius: 8px;
+  background: #f8faf7;
+  color: #65736a;
+  font: inherit;
+  font-size: 12px;
+}
+
+.scanner-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #65736a;
+  font-size: 12px;
+}
+
+.scanner-preview img {
+  width: 110px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.symptom-picker {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.symptom-picker legend {
+  margin-bottom: 10px;
+  color: #405347;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.farmer-tool-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.farmer-tool-chip {
+  display: inline-flex !important;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 7px !important;
+  padding: 8px 10px;
+  border: 1px solid #e4eae3;
+  border-radius: 999px;
+  background: #fff;
+  color: #65736a !important;
+  cursor: pointer;
+  font-size: 11px !important;
+}
+
+.farmer-tool-chip input {
+  accent-color: #26783c;
+}
+
+.farmer-tool-status {
+  margin: 0;
+  color: #347346;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.observation-list,
+.calendar-list,
+.notification-list,
+.community-post-list {
+  display: grid;
+}
+
+.observation-item,
+.calendar-item,
+.notification-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 14px 0;
+  border-top: 1px solid #edf0ec;
+}
+
+.observation-item:first-child,
+.calendar-item:first-child,
+.notification-item:first-child {
+  border-top: 0;
+}
+
+.observation-item > div {
+  display: grid;
+  gap: 4px;
+  min-width: 150px;
+}
+
+.observation-item span,
+.calendar-task small,
+.notification-title-row > span {
+  color: #89938b;
+  font-size: 11px;
+}
+
+.observation-item p {
+  margin: 0;
+  color: #66736a;
+  font-size: 12px;
+}
+
+.calendar-form {
+  display: grid;
+  grid-template-columns: minmax(180px, 1.6fr) minmax(140px, 1fr) minmax(130px, 1fr) auto;
+  align-items: end;
+  gap: 12px;
+}
+
+.calendar-form .farmer-tool-button {
+  white-space: nowrap;
+}
+
+.calendar-item {
+  display: grid;
+  grid-template-columns: 18px 125px minmax(0, 1fr);
+  cursor: pointer;
+}
+
+.calendar-item input {
+  accent-color: #26783c;
+}
+
+.calendar-date {
+  color: #65736a;
+  font-size: 12px;
+}
+
+.calendar-task {
+  display: grid;
+  gap: 3px;
+}
+
+.calendar-item.is-done .calendar-task strong {
+  color: #89938b;
+  text-decoration: line-through;
+}
+
+.farmer-tool-empty {
+  margin: 0;
+  padding: 18px 0 4px;
+  color: #758078;
+  font-size: 13px;
+}
+
+.equipment-card .farmer-tool-panel-heading {
+  align-items: flex-start;
+}
+
+.equipment-card .farmer-tool-icon {
+  margin-bottom: 0;
+}
+
+.equipment-card .farmer-tool-eyebrow {
+  margin-top: 15px;
+}
+
+.equipment-card h3 {
+  margin-top: 5px;
+}
+
+.equipment-card .farmer-tool-link-button {
+  margin-top: 14px;
+  padding-left: 0;
+}
+
+.analytics-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.analytics-summary > article {
+  display: grid;
+  gap: 9px;
+  padding: 18px;
+  color: #758078;
+  font-size: 12px;
+}
+
+.analytics-summary strong {
+  color: #26783c;
+  font-size: 25px;
+}
+
+.analytics-summary strong small {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.analytics-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.analytics-row {
+  display: grid;
+  gap: 7px;
+}
+
+.analytics-row-label {
+  display: flex;
+  justify-content: space-between;
+  color: #55655a;
+  font-size: 12px;
+}
+
+.analytics-track {
+  height: 9px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: #edf1ec;
+}
+
+.analytics-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.fill-green {
+  background: #4d9b5b;
+}
+
+.fill-gold {
+  background: #e0b24c;
+}
+
+.fill-blue {
+  background: #67a6bf;
+}
+
+.analytics-crop-names {
+  color: #89938b;
+  font-size: 11px;
+}
+
+.table-panel {
+  min-width: 0;
+}
+
+.farmer-tool-table-wrap {
+  overflow-x: auto;
+}
+
+.farmer-tool-table {
+  width: 100%;
+  min-width: 580px;
+  border-collapse: collapse;
+  color: #55635a;
+  font-size: 12px;
+}
+
+.farmer-tool-table th,
+.farmer-tool-table td {
+  padding: 13px 12px;
+  border-bottom: 1px solid #edf0ec;
+  text-align: left;
+}
+
+.farmer-tool-table th {
+  background: #f5f8f3;
+  color: #526858;
+  font-size: 11px;
+}
+
+.market-price {
+  color: #26783c;
+  font-weight: 700;
+}
+
+.product-card .farmer-tool-icon {
+  margin-bottom: 12px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card-footer {
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.product-card .farmer-tool-eyebrow {
+  margin-bottom: 7px;
+}
+
+.product-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 18px;
+  color: #26783c;
+  font-size: 13px;
+}
+
+.product-card-footer .farmer-tool-button {
+  white-space: nowrap;
+}
+
+.product-quantity {
+  display: block;
+  margin-top: 10px;
+  color: #63866b;
+  font-size: 11px;
+}
+
+.tip-card .farmer-tool-badge {
+  margin-bottom: 14px;
+}
+
+.tip-card > p {
+  margin-top: 8px;
+}
+
+.notification-item {
+  align-items: flex-start;
+}
+
+.notification-item > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.notification-dot {
+  width: 9px;
+  height: 9px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: #4b9b5b;
+}
+
+.notification-item.is-read .notification-dot {
+  background: #d7dfd7;
+}
+
+.notification-title-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.notification-title-row h3 {
+  margin: 0;
+  color: #315a3b;
+  font-size: 13px;
+}
+
+.notification-item p {
+  margin: 6px 0 0;
+  color: #758078;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.community-form {
+  gap: 13px;
+}
+
+.community-form > label:first-child {
+  max-width: 280px;
+}
+
+.farmer-tool-form-footer {
+  justify-content: flex-end;
+  color: #89938b;
+  font-size: 11px;
+}
+
+.community-post-list {
+  gap: 12px;
+}
+
+.community-post {
+  padding: 18px 20px;
+}
+
+.community-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 9px;
+  color: #526858;
+  font-size: 12px;
+}
+
+.community-post-meta span {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #edf6ed;
+  color: #397348;
+  font-size: 10px;
+}
+
+.community-post > p {
+  margin: 12px 0 0;
+  color: #66736a;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.profile-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #edf0ec;
+}
+
+.profile-avatar {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e6f2e5;
+  color: #26783c;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.profile-identity > div {
+  display: grid;
+  gap: 4px;
+  color: #315a3b;
+  font-size: 13px;
+}
+
+.profile-identity > div span {
+  color: #89938b;
+  font-size: 11px;
+}
+
+.profile-form > .farmer-tool-muted {
+  margin: -8px 0 0;
+}
+
+.help-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  align-items: start;
+  gap: 16px;
+}
+
+.help-faq h3,
+.support-form h3 {
+  margin-bottom: 12px;
+}
+
+.help-faq details {
+  padding: 14px 0;
+  border-top: 1px solid #edf0ec;
+}
+
+.help-faq summary {
+  color: #405347;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.help-faq details p {
+  margin: 10px 0 0;
+  color: #758078;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.support-form > .farmer-tool-button {
+  justify-self: start;
+}
+
+@media (max-width: 900px) {
+  .calendar-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .help-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .farmer-tool-heading,
+  .farmer-tool-panel-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .farmer-tool-heading {
+    gap: 10px;
+  }
+
+  .farmer-tool-panel {
+    padding: 18px;
+  }
+
+  .farmer-tool-card-grid,
+  .equipment-grid,
+  .product-grid,
+  .scanner-fields,
+  .profile-field-grid,
+  .analytics-summary,
+  .calendar-form {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-item {
+    grid-template-columns: 18px 95px minmax(0, 1fr);
+    gap: 9px;
+  }
+
+  .notification-item {
+    flex-wrap: wrap;
+  }
+
+  .notification-item > div {
+    flex-basis: calc(100% - 25px);
+  }
+
+  .notification-title-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .product-card-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  .observation-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

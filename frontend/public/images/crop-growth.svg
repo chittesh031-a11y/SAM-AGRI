@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="320" y1="0" x2="320" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9E9E0"/>
+      <stop offset="1" stop-color="#F7F1D2"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="320" y1="215" x2="320" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8784D"/>
+      <stop offset="1" stop-color="#68472F"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h640v360H0z"/>
+  <circle cx="526" cy="73" r="29" fill="#FFD978"/>
+  <path fill="#8DBA79" d="M0 205c103-36 185-31 280 3 103-45 211-43 360-1v73H0v-75Z"/>
+  <path fill="url(#soil)" d="M0 235c138-26 261-18 359 9 92-31 180-33 281-14v130H0V235Z"/>
+  <path stroke="#C49361" stroke-width="5" d="M0 274c102-20 188-15 274 5m95 4c87-23 172-26 271-10"/>
+  <path stroke="#BD8B58" stroke-width="4" d="M0 320c110-17 195-11 278 7m94-4c82-19 166-20 268-7"/>
+  <path stroke="#D7AA70" stroke-linecap="round" stroke-width="5" d="m88 290 19-4m63 34 22-5m279-33 20-4m-97 62 18-4"/>
+  <path stroke="#3C824B" stroke-linecap="round" stroke-width="9" d="M321 245c0-44 2-82 1-126"/>
+  <path fill="#56A85C" d="M319 177c-44-44-87-44-119-20 27 46 69 60 119 35v-15Zm6-31c32-53 72-66 111-48-18 52-55 78-110 63l-1-15Zm-6-44c-25-38-55-49-86-34 16 39 44 58 86 48v-14Z"/>
+  <path stroke="#347743" stroke-linecap="round" stroke-width="4" d="M320 178c-31-10-60-20-93-21m98-9c31-19 61-32 97-38m-103-8c-17-13-34-22-58-26"/>
+  <path fill="#8DCA68" d="M320 122c-11-24-9-44 3-61 20 17 24 37 10 59l-13 2Z"/>
+</svg>
